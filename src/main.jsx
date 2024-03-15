@@ -6,5 +6,6 @@ import "./stylesheet/Basic.scss";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
+    useEffect wadvaw
   </React.StrictMode>
 );
