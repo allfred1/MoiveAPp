@@ -1,0 +1,27 @@
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 32px 18px;
+}
+
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.logo {
+  width: 128px;
+  height: 48px;
+  object-align: cover;
+  transition: transform 0.3s ease-in-out; // Добавляем transition для плавного изменения размера при наведении
+  &:hover {
+    transform: scale(1.3); // Увеличиваем масштаб при наведении
+  }
+}
